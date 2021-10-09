@@ -1,10 +1,12 @@
+import * as mymodule from "./index2.js";
+document.body.onload=mymodule.custom()
 // by using id
 // by using class
 // by using element
 
-let h1 = document.getElementById("content");
-let username = document.getElementById("demo");
-let output = document.getElementById("output");
+// let h1 = document.getElementById("content");
+// let username = document.getElementById("demo");
+// let output = document.getElementById("output");
 
 // console.log(h1)
 // // it is using to print any  text
@@ -19,14 +21,14 @@ let output = document.getElementById("output");
 // h1[0].innerText="Hello wolrd"
 
 
-function myfunction() {
-    h1.innerText = "Deepika kumar";
-    output.innerText = username.value
-    console.log(username.type)
-}
+// function myfunction() {
+//     h1.innerText = "Deepika kumar";
+//     output.innerText = username.value
+//     console.log(username.type)
+// }
 
-var name="yash"
-console.log(name)
+// var name="yash"
+// console.log(name)
 
 
 
