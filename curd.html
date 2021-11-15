@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurdApp</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css' />
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-6 m-auto border p-5 shadow mt-5">
+            <form onsubmit="save()">
+                <div class="form-control border-0">
+                    <label for="">Title</label>
+                    <input type="text"  id="title" class="form-control" placeholder="Enter Title">
+                </div>
+                <div class="form-control border-0">
+                    <label for="">Body</label>
+                    <input type="text" id="body" class="form-control" placeholder="Enter Body">
+                </div>
+                <input type="submit" value="Save" class="btn btn-primary mx-auto d-block w-100 mt-3">
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 m-auto">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Blog</th>
+                    </tr>
+                </thead>
+                <tbody id="root">
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.js'
+        integrity='sha512-/1h344Ogu39f2lMl2yIJn3mPjySuB0+m3EzDvFSWlxo6HaJO/3jdzGOy8V6ZgdkTkddKH+ZWma1mqOQZHmjo1w=='
+        crossorigin='anonymous'></script>
+</body>
+
+</html>
